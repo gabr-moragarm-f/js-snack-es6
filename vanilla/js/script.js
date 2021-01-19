@@ -109,13 +109,13 @@ for (var i = 0; i < squadre.length; i++) {
 
 console.log(squadre)
 
-var squadreSenzaFalli = [];
+var squadreSenzaPunti = [];
 
 for (var i = 0; i < squadre.length; i++) {
-  squadreSenzaFalli.push({
+  squadreSenzaPunti.push({
     'nome' : squadre[i].nome,
-    'puntiFatti' : squadre[i].puntiFatti
+    'falliSubiti' : squadre[i].falliSubiti
   })
 }
 
-console.log(squadreSenzaFalli);
+console.log(squadreSenzaPunti);
