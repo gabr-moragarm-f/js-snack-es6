@@ -99,10 +99,23 @@ var squadre = [
     'puntiFatti' : 0,
     'falliSubiti' : 0
   }
-]
+];
 
 for (var i = 0; i < squadre.length; i++) {
-  squadre[i].puntiFatti = numberRandomizer(1, 99)
+  squadre[i].puntiFatti = numberRandomizer(1, 99);
 
-  squadre[i].falliSubiti = numberRandomizer(1, 99)
+  squadre[i].falliSubiti = numberRandomizer(1, 99);
 }
+
+console.log(squadre)
+
+var squadreSenzaFalli = [];
+
+for (var i = 0; i < squadre.length; i++) {
+  squadreSenzaFalli.push({
+    'nome' : squadre[i].nome,
+    'puntiFatti' : squadre[i].puntiFatti
+  })
+}
+
+console.log(squadreSenzaFalli);
