@@ -1,7 +1,7 @@
 function functionName(array, min, max) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
-    if (i > min && i < max) {
+    if (i >= min && i <= max) {
       newArray.push(array[i])
     }
   }
