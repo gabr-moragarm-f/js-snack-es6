@@ -86,7 +86,6 @@ const squadreSenzaPunti = [];
 
 for (let i = 0; i < squadre.length; i++) {
   let {nome, falliSubiti} = squadre[i]
-  
   squadreSenzaPunti.push({
     nome,
     falliSubiti
